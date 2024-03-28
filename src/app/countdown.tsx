@@ -31,8 +31,8 @@ export function Countdown() {
   }, 1000)
 
   return (
-    <div className="my-5 w-full rounded-xl bg-zinc-900 p-5 text-zinc-50">
-      <p className="text-center text-7xl">{timeOut}</p>
+    <div className="my-10 w-full rounded-xl bg-zinc-900 text-zinc-50">
+      <p className="text-center text-3xl md:text-7xl">{timeOut}</p>
     </div>
   )
 }
