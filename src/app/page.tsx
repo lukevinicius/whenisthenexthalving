@@ -24,6 +24,20 @@ export default async function Home() {
             <p className="font-semibold">20 April 2024 17:40</p>
           </div>
         </div>
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9171417617926228"
+          crossOrigin="anonymous"
+        ></script>
+
+        <ins
+          className="block adsbygoogle"
+          data-ad-client="ca-pub-9171417617926228"
+          data-ad-slot="7775855499"
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        ></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
         {/* <div className="flex justify-center items-center">
           <Link href="https://stake.com/?c=74kRyiLI">
             <Image
