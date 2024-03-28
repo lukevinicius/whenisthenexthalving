@@ -1,9 +1,9 @@
-import Link from 'next/link'
+/* import Link from 'next/link'
+import Image from 'next/image' */
 import { Countdown } from './countdown'
-import Image from 'next/image'
 
-import stakeMobileBanner from '@/assets/stake/Banners_320x100.gif'
-import stakeDestktopBanner from '@/assets/stake/stakedesktop.gif'
+/* import stakeMobileBanner from '@/assets/stake/Banners_320x100.gif'
+import stakeDestktopBanner from '@/assets/stake/stakedesktop.gif' */
 
 export default async function Home() {
   return (
@@ -24,7 +24,7 @@ export default async function Home() {
             <p className="font-semibold">20 April 2024 17:40</p>
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        {/* <div className="flex justify-center items-center">
           <Link href="https://stake.com/?c=74kRyiLI">
             <Image
               src={stakeMobileBanner}
@@ -37,7 +37,7 @@ export default async function Home() {
               className="max-md:hidden"
             />
           </Link>
-        </div>
+        </div> */}
       </div>
     </main>
   )
