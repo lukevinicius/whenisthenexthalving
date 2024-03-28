@@ -6,7 +6,7 @@ import { ScriptApp } from './scripts'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'When is the next halving?',
+  title: 'When is the next bitcoin halving?',
   description: 'Find out when the next Bitcoin halving is scheduled to occur.',
 }
 

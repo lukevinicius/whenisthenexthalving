@@ -1,4 +1,9 @@
+import Link from 'next/link'
 import { Countdown } from './countdown'
+import Image from 'next/image'
+
+import stakeMobileBanner from '@/assets/stake/Banners_320x100.gif'
+import stakeDestktopBanner from '@/assets/stake/stakedesktop.gif'
 
 export default async function Home() {
   return (
@@ -18,6 +23,16 @@ export default async function Home() {
             <p>Estimated date & time of reward drop:</p>
             <p className="font-semibold">20 April 2024 17:40</p>
           </div>
+        </div>
+        <div className="pt-20 flex justify-center items-center">
+          <Link href="https://stake.com/?c=74kRyiLI">
+            <Image
+              src={stakeMobileBanner}
+              alt="stake-mobile-banner"
+              className="md:hidden"
+            />
+            <Image src={stakeDestktopBanner} alt="stake-desktop-banner" />
+          </Link>
         </div>
       </div>
     </main>
