@@ -24,14 +24,18 @@ export default async function Home() {
             <p className="font-semibold">20 April 2024 17:40</p>
           </div>
         </div>
-        <div className="pt-20 flex justify-center items-center">
+        <div className="flex justify-center items-center">
           <Link href="https://stake.com/?c=74kRyiLI">
             <Image
               src={stakeMobileBanner}
               alt="stake-mobile-banner"
               className="md:hidden"
             />
-            <Image src={stakeDestktopBanner} alt="stake-desktop-banner" />
+            <Image
+              src={stakeDestktopBanner}
+              alt="stake-desktop-banner"
+              className="max-md:hidden"
+            />
           </Link>
         </div>
       </div>
