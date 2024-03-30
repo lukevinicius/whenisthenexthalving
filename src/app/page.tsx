@@ -1,6 +1,9 @@
 /* import Link from 'next/link'
 import Image from 'next/image' */
+
+import { AccordionInfo } from './accordion-info'
 import { Countdown } from './countdown'
+import { DropdownMenuShare } from './share-button'
 
 /* import stakeMobileBanner from '@/assets/stake/Banners_320x100.gif'
 import stakeDestktopBanner from '@/assets/stake/stakedesktop.gif' */
@@ -9,6 +12,7 @@ export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-12 md:p-24 bg-zinc-900">
       <div className="max-w-5xl w-full items-center justify-between font-mono text-sm text-zinc-50 space-y-5">
+        <DropdownMenuShare />
         <p className="text-2xl md:text-5xl">
           When will the next Bitcoin halving be in 2024?
         </p>
@@ -52,6 +56,7 @@ export default async function Home() {
             />
           </Link>
         </div> */}
+        <AccordionInfo />
       </div>
     </main>
   )
