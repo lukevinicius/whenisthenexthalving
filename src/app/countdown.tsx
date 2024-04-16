@@ -8,10 +8,10 @@ dayjs.extend(duration)
 
 export function Countdown() {
   const [timeOut, setTimeOut] = useState('')
-  const finalDate = 1713634800 * 1000 // 20 April 2024 17:40
-
+  // transform the final date to a dayjs object
+  const finalDate = dayjs('2024-04-20T02:25:00.999Z')
   const interval = setInterval(() => {
-    const duration = dayjs.duration(dayjs(new Date(finalDate)).diff(dayjs()))
+    const duration = dayjs.duration(dayjs(finalDate).diff(dayjs()))
     if (duration.asMilliseconds() <= 0) {
       clearInterval(interval)
       return

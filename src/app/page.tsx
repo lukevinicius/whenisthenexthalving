@@ -1,12 +1,6 @@
-/* import Link from 'next/link'
-import Image from 'next/image' */
-
 import { AccordionInfo } from './accordion-info'
 import { Countdown } from './countdown'
 import { DropdownMenuShare } from './share-button'
-
-/* import stakeMobileBanner from '@/assets/stake/Banners_320x100.gif'
-import stakeDestktopBanner from '@/assets/stake/stakedesktop.gif' */
 
 export default async function Home() {
   return (
@@ -25,7 +19,7 @@ export default async function Home() {
               approximately
             </p>
             <p>Estimated date & time of reward drop:</p>
-            <p className="font-semibold">20 April 2024 17:40</p>
+            <p className="font-semibold">20 April 2024 02:25</p>
           </div>
         </div>
         <script
